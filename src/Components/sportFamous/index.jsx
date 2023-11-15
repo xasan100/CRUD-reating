@@ -30,6 +30,8 @@ export const FamousCom = () => {
                         <th>id</th>
                         <th>Sports name</th>
                         <th>Rating</th>
+                        <th>Action</th>
+
 
                     </tr>
 
