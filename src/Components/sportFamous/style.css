@@ -1,0 +1,130 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container>div {
+    width: 90%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: auto;
+    height: 80vh;
+}
+
+.container>div>table {
+    border-collapse: collapse;
+    width: 100%;
+    overflow-y: auto;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex>button {
+    width: 120px;
+    height: 40px;
+}
+
+.modalContainer {
+    position: absolute;
+    background-color: black;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.mod-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.mod-flex>p {
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+}
+
+.adduser_input {
+    display: flex;
+    flex-direction: column;
+}
+
+.adduser_input>div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 5px;
+    padding: 0px 20px;
+}
+
+.adduser_input>div>input {
+    width: 80%;
+    height: 40px;
+    padding: 0px 10px;
+    font-size: 26px;
+
+}
+
+.mod-flex>h1 {
+    color: white;
+}
+
+.adduser_input>div>span {
+    color: white;
+}
+
+.input-box {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+}
+
+.add-user-btn {
+    width: 120px;
+    height: 40px;
+}
+
+.delete-btn {
+    background: rgb(171, 82, 82);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+
+}
+
+th {
+    padding: 10px;
+}
+
+.submitadd {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 30px;
+}
+
+.submitadd>button {
+    width: 120px;
+    height: 40px;
+}
